@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input= new Scanner(System.in);
-        System.out.printf("Please enter the first number:");
+        System.out.println("Please enter the first number:");
         double num1 = input.nextDouble();
-        System.out.printf("Please enter which operation you wanna do: + - / *  ");
+        System.out.println("Please enter which operation you wanna do: + - / *  ");
         char operator = input.next().charAt(0);
-        System.out.printf("Please enter the second number:");
+        System.out.println("Please enter the second number:");
         double num2 = input.nextDouble();
         calc(num1, operator, num2);
     }
